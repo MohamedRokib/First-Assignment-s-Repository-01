@@ -1,0 +1,75 @@
+*{ font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400 ;
+  font-style: normal;
+}
+/* header section  */
+.headeR{
+    background-image: url("../all.css/background.png") ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 100vh;
+   
+   }
+.banner-content{
+
+}
+.banner-description{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.banner{
+    width: auto;
+    border: 1px solid rebeccapurple;
+    margin: 150px auto;
+}
+.comment1{
+    font-weight: bold;
+    font-size: 65px;
+}
+
+h3{
+    color: #4E47FF;
+  font-weight: bold;
+}
+/* button section  */
+.first-bttn1{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    }
+.scnd-bttn2{
+     background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin: 0px auto;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    
+    }
+    
+
+/* Nav Section  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
+nav ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
