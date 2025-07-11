@@ -13,13 +13,14 @@
     height: 100vh;
    
    }
-.banner-content{
+/* Banner Section  */
 
-}
+
 .banner-description{
     text-align: center;
     font-size: 40px;
     font-weight: bold;
+    color: black;
 }
 
 .banner{
@@ -32,6 +33,10 @@
     font-size: 65px;
 }
 
+h2{
+    font-weight: bold;
+    
+}
 h3{
     color: #4E47FF;
   font-weight: bold;
@@ -71,5 +76,11 @@ nav ul li{
     display: flex;
     align-items: center;
     list-style: none;
+}
+
+.comment-picture{
+    width: 403px;
+    height: 328px;
+    display: flex;
 }
 
