@@ -1,2 +1,50 @@
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 480;
+  font-style: normal;
+}
+
+/* Nav Styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+
+}
+
+nav ul li{
+    list-style: none;
+}
+/* Header Section */
+.header{
+    background-image: url("../all.css/background.png");
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+/* BannerStyles */
+.banner-content{
+    text-align: center;
+    margin-top: 100px;
+}
+.banner-title{
+    text-align: center;
+    gap: 37px;
+    font-weight: 905;
+    height: 237;
+    margin-top: 150px;
+    font-size: 50px;
+   
+}
+
+.btn-primary{
+    background-color: #4E47FF;
+    border: none;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 7px 13px;
+    border-radius: 5px;
+}
 
 
