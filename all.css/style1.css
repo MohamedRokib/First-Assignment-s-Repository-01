@@ -23,7 +23,22 @@ nav ul li{
     height: 90vh;
 }
 
-/* BannerStyles */
+/* Banner Styles */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 35px 50px 230px;
+    margin-left: 100px;
+}
+
+
+.banner-profile-picture{
+    width: 170px;
+    border-radius: 15px;
+    margin-right: 100px;
+}
+
 .banner-content{
     text-align: center;
     margin-top: 100px;
