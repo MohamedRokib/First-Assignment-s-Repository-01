@@ -174,9 +174,86 @@ main{
     width: 366px;
     height: 243px;
     padding: 30px;
+
+}
+
+.last-container {
+    margin-top: 150px;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 2px 2px 30px #F2EDED;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+    border-radius: 50px;
     
+}
+.last-container img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50px;
+    object-position: center;
+    object-fit: cover;
+}
+
+/* Footer Styles */
+footer{
+    padding: 0px 100px;
+    display: flex;
     
 }
 
+.footer-column{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+    
+}
+.footer-column h1{
+    font-size: 80px;
+}
+.footer-column h4{
+    font-size: 15px;
+    letter-spacing: 0%;
+    
+}
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contact-container{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+    justify-items: right;
+    flex-direction: column;
+  
+}
 
+.contact-left-title h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+footer input[type="email"], footer input[type="text"], footer textarea{
+    height: 50px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
